@@ -42,7 +42,7 @@ function Header(props) {
                            </div>
                         </>
                      ) : (
-                        'user'
+                        'logout'
                      )
                   }
                </div>
