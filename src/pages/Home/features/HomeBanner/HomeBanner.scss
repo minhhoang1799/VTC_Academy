@@ -1,0 +1,98 @@
+@import "../../../../App.scss";
+
+.home {
+    &__banner {
+        position: relative;
+        img {
+            max-width: 100%;
+            min-height: auto;
+        }
+        .css-ohwg9z {
+            .css-hn784z,
+            .css-1abc02a {
+                .css-1g04gm2-MuiButtonBase-root-MuiIconButton-root {
+                    background-color: transparent;
+                    .css-i4bv87-MuiSvgIcon-root {
+                        font-size: 7rem;
+                        background-repeat: no-repeat;
+                        // background-size: contain;
+                        background-position: center;
+                        path {
+                            display: none;
+                        }
+                    }
+                }
+            }
+            .css-hn784z {
+                .css-i4bv87-MuiSvgIcon-root {
+                    background-image: url("../../../../assets/image/chevron-left.png");
+                }
+            }
+            .css-1abc02a {
+                .css-i4bv87-MuiSvgIcon-root {
+                    background-image: url("../../../../assets/image/chevron-right.png");
+                }
+            }
+            .css-1m9128y {
+                button {
+                    margin-right: 5px;
+                }
+            }
+        }
+        .css-1f8sh1y {
+            height: 660px !important;
+        }
+        .css-1m9128y {
+            position: relative;
+            top: -40px;
+            z-index: 10;
+            .css-8ucetn-MuiButtonBase-root-MuiIconButton-root {
+                color: $main_color3 !important;
+            }
+        }
+        &__search-form {
+            position: absolute;
+            z-index: 1;
+            left: 50%;
+            bottom: 0;
+            transform: translate(-50%, -50%);
+            min-width: 1172px;
+            padding: 20px;
+            background-color: #00000025;
+            // opacity: 25%;
+            .MuiFormControl-root {
+                width: 944px;
+                background: #fff;
+                border-radius: 5px;
+                .MuiInputBase-input {
+                    font-size: 16px;
+                }
+                .MuiSelect-select {
+                    padding: 10px 10px;
+
+                    min-height: 0;
+                }
+                .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+                    border: 0;
+                    border-radius: 0;
+                    border-left: 1px solid rgba(204, 204, 204, 1);
+                }
+            }
+            &__title {
+                font-size: 30px;
+                color: #fff;
+                margin-bottom: 15px;
+            }
+        }
+        .css-sghohy-MuiButtonBase-root-MuiButton-root {
+            @include size(188px, 50px);
+            background-color: $main_color3 !important;
+            color: $main_color1;
+            margin-left: 5px;
+        }
+    }
+}
+.MuiList-root {
+    display: inline;
+    left: 380px;
+}
