@@ -1,26 +1,8 @@
 @import "../../../App.scss";
 
 .header {
- &__wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 0 25px;
- }
- &__right {
-  display: flex;
-  align-items: center;
- }
- &__user {
-  display: flex;
-  align-items: center;
-  margin-left: 27px;
-  .main__btn--btn01 {
-   @include size(114px, 40px);
-  }
-  .main__btn--btn02 {
-   @include size(124px, 40px);
-   margin-left: 10px;
-  }
+ &__logo {
+  width: 75px;
+  height: auto;
  }
 }
